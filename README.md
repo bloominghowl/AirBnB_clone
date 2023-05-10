@@ -1,5 +1,8 @@
 0x00. AirBnB clone - The console
 
+![image](https://github.com/bloominghowl/AirBnB_clone/assets/104152275/fe6e11f1-285d-4461-822b-ef489a90ac0e)
+
+
 Learning Objectives
 How to create a Python package
 How to create a command interpreter in Python using the cmd module

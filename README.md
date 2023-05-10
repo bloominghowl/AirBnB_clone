@@ -1,7 +1,6 @@
-0x00. AirBnB clone - The console
+https://intranet.alxswe.com/projects/263#task-1389:~:text=0x00.%20AirBnB%20clone%20%2D%20The%20console
 
 ![image](https://github.com/bloominghowl/AirBnB_clone/assets/104152275/fe6e11f1-285d-4461-822b-ef489a90ac0e)
-
 
 Learning Objectives
 How to create a Python package

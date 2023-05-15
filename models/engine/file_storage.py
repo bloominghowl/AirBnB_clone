@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-"""Module for the FileStorage class."""
+"""Module for the FileStorage Class."""
 import os
 import json
 import datetime
+
 
 
 class FileStorage:
@@ -50,10 +51,10 @@ class FileStorage:
         if not os.path.isfile(FileStorage.__file_path):
             return
         with open(FileStorage.__file_path, "r", encoding="utf-8") as f:
-            obj_dict = json.load(f)
-            obj_dict = {k: self.classes()[v["__class__"]](**v)
-                        for k, v in obj_dict.items()}
-            FileStorage.__objects = obj_dict
+            obj_dic = json.load(f)
+            obj_dic = {k: self.classes()[v["__class__"]](**v)
+                        for k, v in obj_dic.items()}
+            FileStorage.__objects = obj_dic
 
     def attributes(self):
         """Returns the valid attributes and their types for classname"""

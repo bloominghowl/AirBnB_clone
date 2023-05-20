@@ -1,9 +1,13 @@
 #!/usr/bin/python3
-""" Class State """
-
+""" module for State class """
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """ Class State """
+    """
+    initiation of State that inherits from BaseModel class
+
+    Public Class Attributes:
+       (string) name: initialized as empty string
+    """
     name = ""
